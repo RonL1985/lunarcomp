@@ -15,7 +15,7 @@ div.sfooter-content section:last-child {
 
 .form-wrapper{
 	background-color: purple;
-	color: lime;
+	color: yellow;
 	padding: 20px;
 }
 
@@ -48,8 +48,8 @@ form div:nth-child(4){
  *Footer.
  **/
 footer {
-	background-color: white;
-	color: white;
+	background-color: yellow;
+	color: purple;
 	text-align: left;
 }
 
@@ -64,7 +64,8 @@ ul {
 }
 
 li {
-	float: left;
+	float: right;
+	color: yellow;
 }
 
 li a {
@@ -78,4 +79,14 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
 	background-color: purple;
+}
+h2 {
+	color: yellow;
+}
+
+h1 {
+	color: yellow;
+}
+p {
+	color: yellow;
 }
