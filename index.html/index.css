@@ -90,3 +90,9 @@ h1 {
 p {
 	color: yellow;
 }
+img {
+	align-items: center;
+}
+table {
+	color: yellow;
+}
