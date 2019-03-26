@@ -59,19 +59,18 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: purple;
 	color: yellow;
 }
 
 li {
-	float: right;
+	float: left;
 	color: yellow;
 }
 
 li a {
 	display: block;
 	color: yellow;
-	text-align: center;
+	text-align: left;
 	padding: 14px 16px;
 	text-decoration: none;
 }
@@ -91,8 +90,175 @@ p {
 	color: yellow;
 }
 img {
-	align-items: center;
+	align-items: flex-start;
 }
 table {
 	color: yellow;
+}
+
+section:nth-child(4) h2 {
+	text-align: center;
+	margin-top: 0
+}
+
+section:nth-child(4) table {
+	width: 100%;
+	color: yellow;
+	text-align: center;
+}
+
+section:nth-child(4) table td,
+section:nth-child(4) table th {
+	text-align: center;
+	background-color: purple;
+	padding: 8px;
+
+}
+
+html, body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/*
+ *create a responsive container
+ */
+@media only screen and (min-width: 1995px) {
+	.container { width: 1165px; }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1195px) {
+	.container { width: 965px; }
+}
+
+@media only screen and (min-width: 765px) and (max-width: 985px) {
+	.container { width: 745px; }
+}
+
+
+/***********************
+ * Flexbox Sticky Footer
+ * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+ ***********************/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
+
+
+
+/**
+ * Style rules
+ **/
+body {
+	font-family: monospace;
+}
+
+section {
+	padding: 2.75rem 0;
+}
+
+/**
+ * Header Style Rules
+ **/
+header{
+	background-color: purple;
+	color: yellow;
+}
+
+
+/**
+ * Welcome Section
+ **/
+
+img[alt="welcome to my homepage"] {
+	display: block;
+	margin: 0 auto 2rem;
+}
+
+.instructions-wrapper{
+	display: flex;
+	align-items: flex-start;
+	border: 3px solid purple;
+	padding: 20px;
+}
+
+.instructions-wrapper img {
+	width:225px;
+}
+
+.instructions-content {
+	flex: 1;
+	padding: 2rem;
+}
+
+.instructions-content h2 {
+	margin-top: 0;
+}
+
+
+/**
+ * about me styles
+ **/
+section.about-me {
+	background-color: purple;
+	color: #fff;
+}
+
+.about-me img {
+	width: 305px;
+	float: left;
+	margin-right: 2rem;
+	border: 3px solid white;
+}
+
+.about-me p span {
+	color: yellow;
+	font-style: italic;
+}
+
+section:nth-child(4) h2 {
+	text-align: right;
+	margin-top: 0
+}
+
+section:nth-child(4) table {
+	width: 100%;
+	color: lime;
+}
+
+section:nth-child(4) table td,
+section:nth-child(4) table th {
+	text-align: left;
+	background-color: #333333;
+	padding: 8px;
+
+}
+
+/**
+ *Footer.
+ **/
+footer {
+	background-color: black;
+	color: white;
+	text-align: left;
 }
