@@ -11,18 +11,18 @@ function currentSlide(n) {
 	showSlides(slideIndex = n);
 }
 
-function showSlides(n) {
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
 	var i;
-	var slides = document.getElementsByClassName("../img");
-	var dots = document.getElementsByClassName("../img/moon-elk.jpg");
-	if (n > slides.length) {slideIndex = 1}
-	if (n < 1) {slideIndex = slides.length}
+	var slides = document.getElementsByClassName("img");
 	for (i = 0; i < slides.length; i++) {
 		slides[i].style.display = "none";
 	}
-	for (i = 0; i < dots.length; i++) {
-		dots[i].className = dots[i].className.replace(" active", "");
-	}
+	slideIndex++;
+	if (slideIndex > slides.length) {slideIndex = 1}
 	slides[slideIndex-1].style.display = "block";
-	dots[slideIndex-1].className += " active";
+	setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
