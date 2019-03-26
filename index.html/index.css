@@ -1,0 +1,81 @@
+body {
+	background-image: url("../img/moon-elk2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+/**
+ * Contact Section
+ **/
+
+div.sfooter-content section:last-child {
+	background-color: purple;
+}
+
+.form-wrapper{
+	background-color: purple;
+	color: lime;
+	padding: 20px;
+}
+
+label {
+	display: block;
+	margin: 15px 0 5px 0;
+}
+
+input, textarea {
+	width: 30vw;
+	padding: 8px;
+}
+
+button {
+	background-color: yellow;
+	padding: 10px 31px;
+	font-weight: bold;
+	border: none;
+}
+
+form div:nth-child(4){
+	margin-bottom: 15px;
+}
+
+.form-wrapper h2{
+	margin-top: 0;
+}
+
+/**
+ *Footer.
+ **/
+footer {
+	background-color: white;
+	color: white;
+	text-align: left;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: purple;
+	color: yellow;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: yellow;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: purple;
+}
