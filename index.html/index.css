@@ -60,6 +60,7 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	color: white;
+	background-color: darkorchid;
 }
 
 li {
@@ -207,7 +208,8 @@ img[alt="welcome to my homepage"] {
 	display: flex;
 	align-items: flex-start;
 	border: 3px solid purple;
-	padding: 20px;
+	padding: 100px;
+	alignment: right;
 }
 
 .instructions-wrapper img {
