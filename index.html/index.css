@@ -1,8 +1,9 @@
 body {
-	background-image: url("../img/LunarLogo2.jpg");
-	background-repeat: repeat;
+	background-image: url("../img/newelkBG.jpg");
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	background-position: top;
 }
 /**
  * Contact Section
@@ -43,14 +44,6 @@ form div:nth-child(4){
 	margin-top: 0;
 }
 
-/**
- *Footer.
- **/
-footer {
-	background-color: purple;
-	color: lawngreen;
-	text-align: left;
-}
 
 
 ul {
@@ -229,7 +222,7 @@ img[alt="welcome to my homepage"] {
  * about me styles
  **/
 section.about-me {
-	background-color: purple;
+	background-color: black;
 	color: lawngreen;
 }
 
@@ -447,6 +440,11 @@ footer {
 	scrollbar-base-color: purple;
 	padding: 2px;
 }
+
+footer {
+	padding: 1px;
+}
+
 
 
 
