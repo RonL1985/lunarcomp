@@ -5,97 +5,73 @@
 		<title></title>
 
 
-		<style>
-			body {
-				background-image: url("../img/BG3.jpg");
-				background-repeat: no-repeat;
-				background-attachment: fixed;
-				background-size: contain;
-				background-position: bottom;
-				background-color: black;
-			}
+		<!-- custom CSS stylesheet -->
+		<link rel="stylesheet" href="../index.html/index.css" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 
-		</style>
-
-
-	</head>
-
-
-	<style>
-		body{
-			margin: 0;
-			background-color: black;
-		}
-
-		.header{
-			width: 1100px;
-			height: 350px;
-			margin: auto;
-		}
-
-		.nav{
-			width: 1100px;
-			background-color: orangered;
-			margin: auto;
-			overflow:auto;
-		}
-
-		ul{
-			margin: 0;
-			padding:0;
-			list-style:none;
-		}
-
-		li{
-			float:left
-		}
-
-		a:link{
-			color: white;
-			width: 250px;
-			text-decoration:none;
-			display:block;
-			text-align:center;
-			padding:15px;
-			text-transform: full-width;
-			font-family:cursive;
-		}
-
-		a:hover{
-			background: black;
-		}
-
-	</style>
-
-
-	<div class="header">
-		<img src="../img/LunarLogo2.jpg" width="1100px" height="350px">
-	</div>
-	<div class="nav">
-		<ul>
-			<li><a href="../index.html">HOME</a></li>
-			<li><a href="../img/Ronald_2019.pdf">RON.L PROFILE</a></li>
-			<li><a href="../img/Priscilla_2019.pdf">PRISCILLA.L PROFILE</a></li>
-		</ul>
-	</div>
 
 	<body>
 
 
-		<img style="transform: rotate(90deg)" align="left" src="../img/Ron1.JPG" alt="" width="320" height="235">
-		<h1 style="color: purple;">Ron Luna</h1>
-		<p style="color: purple;">26 Years Of Experience</p>
+
+	<ul style="background-color: purple">
+		<li content="container"><a href="../index.html">Home</a></li>
+		<li content="container"><a href="about.asp">About</a></li>
+		<li content="container"><a href="../index.html/index2.html">Certificates</a></li>
+		<li content="container"><a href="../index.html/index3.html">Diagrams</a></li>
+		<li content="container"><a href="../profile/index4.html">Profile's</a></li>
+		<li content="container"><a href="contact.asp">Contact</a></li>
+	</ul>
 
 
 
 
+	<!-- INSTRUCTIONS PANEL -->
+	<section>
+		<div class="container">
+			<!-- WELCOME IMAGE -->
+			<img src="../img/LunarLogo2.jpg" alt="welcome to my homepage">
 
-		<img style="transform: rotate(90deg)" align="right" src="../img/Priscilla1.JPG" alt="" width="320" height="235">
-		<h1 style="color: purple;" align="right">Priscilla Luna</h1>
-		<p style="color: purple;" align="right">26 Years Of Experience</p>
+			<div class="instructions-wrapper">
+				<div class="instructions-content">
+					<div class="row">
+						<div class="column">
+					<h1 style="color: orangered;">Ron Luna:</h1>
+						<h2 style="color: orangered;">Operations Manager/Owner...</h2>
+							<ul>
+								<h2 style="color: orangered; background-color: black">26 Years Of Experience In Cathodic Protection.</h2>
+								<li style="background-color: black; float: bottom">Click Photo For More Information.</li>
+						</ul>
+				</div>
+			</div>
+		</div>
+				<a style="color: blue;" href= "../img/Ronald_2019.pdf"><img style="transform: rotate(90deg)" src="../img/Ron1.JPG" width="320" height="235" alt="captain janeway" /></a>
+				<div class="clearfix"></div>
+			</div><!--/.instructions-->
+		</div><!--/.container-->
+	</section>
+
+	<!-- ABOUT ME -->
+	<section class="about-me">
+		<div class="container">
+			<a style="color: black;" href="../img/Priscilla_2019.pdf"><img style="transform: rotate(90deg)" src="../img/Priscilla1.JPG" alt="captain picard" /></a>
+			<h1 style="color: limegreen;">Priscilla Luna:</h1>
+			<h2 style="color: limegreen;">Corrosion Technician/Owner...</h2>
+			<ul>
+				<h2 style="color: limegreen;">26 Years Of Experience In Cathodic Protection.</h2>
+				<li style="float: bottom">Click Photo For More Information.</li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+	</section>
+
+
+
+	<footer style="background-color: black">
+		<h1 align="center">Lunar Corrosion Control, LLC... A Cathodic Protection Company.</h1>
+	</footer>
 
 
 
 	</body>
-
 </html>

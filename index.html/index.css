@@ -53,7 +53,7 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	color: white;
-	background-color: darkorchid;
+	float: bottom;
 }
 
 li {
@@ -71,7 +71,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-	background-color: purple;
+	background-color: red;
 }
 h2 {
 	color: white;
