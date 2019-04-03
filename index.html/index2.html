@@ -9,37 +9,88 @@
 
 	</head>
 
-	<style>
-		img{
-			border: 1px solid purple;
-			transform:          rotate(90deg);
-			alignment: center;
-		}
-		{
-			overflow: hidden
-		}
-	</style>
 
 	<ul style="background-color: purple">
 		<li content="container"><a href="index.html">Home</a></li>
 		<li content="container"><a href="about.asp">About</a></li>
-		<li content="container"><a href="contact.asp">Contact</a></li>
 		<li content="container"><a href="index2.html">Certificates</a></li>
 		<li content="container"><a href="index3.html">Diagrams</a></li>
-		<li style="alignment: center" content="container"><a href="../img/Ronald_2019.pdf">Ron.L Profile</a></li>
-		<li style="alignment: center" content="container"><a href="../img/Priscilla_2019.pdf">Priscilla.L Profile</a></li>
+		<li content="container"><a href="../profile/index4.html">Profile's</a></li>
+		<li content="container"><a href="contact.asp">Contact</a></li>
 	</ul>
 
 	<body>
-		<div class="container">
-			<img style="alignment: center" src= "../img/certificate1.jpeg">
-			<h1 style="background-color: purple" align="center">Priscilla Luna, NACE: Certificate of Achievement</h1>
+
+		<style>
+			/* Three image containers (use 25% for four, and 50% for two, etc) */
+			.column {
+				float: left;
+				width: 33.33%;
+				padding: 5px;
+			}
+
+			/* Clear floats after image containers */
+			.row::after {
+				content: "";
+				clear: both;
+				display: table;
+			}
+
+			.row {
+				display: flex;
+			}
+
+			.column {
+				flex: 33.33%;
+				padding: 5px;
+			}
+
+			img {
+				background-color: purple;
+			}
+			h1{
+				background-color: purple;
+			}
+		</style>
+
+		<h1 align="center">Ron Luna</h1>
+		<div class="row">
+			<div class="column">
+				<img style="transform: rotate(90deg)" src="../img/certificate2.jpg" alt="Snow">
+			</div>
+			<div class="column">
+				<img src="../img/roncompetentpersoncertificate.jpg" alt="Forest">
+			</div>
+			<div class="column">
+				<img src="../img/NCCER%20ron%20(1).jpg" alt="Mountains">
+			</div>
+			</div>
+
+
+		<h1 align="center">Priscilla Luna</h1>
+		<div class="row">
+			<div class="column">
+				<img style="transform: rotate(90deg)" src="../img/certificate1.jpeg" alt="Snow">
+			</div>
+			<div class="column">
+				<img src="../img/priscillaNACE2.jpg" alt="Forest">
+			</div>
+			<div class="column">
+				<img src="../img/priscillacompetentpersoncertificate.jpg" alt="Mountains">
+			</div>
 		</div>
 
-
-		<div class="container">
-				<img style="alignment: center" src= "../img/certificate2.jpg">
-				<h1 style="background-color: purple" align="center">Ron Luna, INTERNATIONAL CODE COUNCIL: UST CATHODIC PROTECTION</h1>
+		<h1 align="center">Avetta Safety</h1>
+		<div class="row">
+			<div class="column">
+				<img style="transform: rotate(90deg)" src="../img/Avetta.jpg" alt="Snow">
+			</div>
+			<div class="column">
+				<img src="" alt="">
+			</div>
+			<div class="column">
+				<img src="" alt="">
+			</div>
 		</div>
 
 

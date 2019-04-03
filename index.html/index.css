@@ -1,9 +1,10 @@
 body {
-	background-image: url("../img/newelkBG.jpg");
+	background-image: url("../img/BG3.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
-	background-position: top;
+	background-size: contain;
+	background-position: center;
+	background-color: black;
 }
 /**
  * Contact Section
@@ -222,7 +223,7 @@ img[alt="welcome to my homepage"] {
  * about me styles
  **/
 section.about-me {
-	background-color: black;
+	background-color: indigo;
 	color: lawngreen;
 }
 
